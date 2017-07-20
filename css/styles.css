@@ -14,12 +14,16 @@ footer {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: sans-serif;
+  font-family: "Lucida Console", Monaco, monospace;
   font-weight: 500;
 }
 
+p, li, a {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
 h2 {
-  margin-top: 2em;
+  /*margin-top: 2em;*/
 }
 
 li {
@@ -48,6 +52,19 @@ a {
 .navlink a:hover {
   text-decoration: underline;
 }
+.headerClass {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+.bodyClass{
+	border-top: 1px dotted #8c8b8b;
+  border-bottom: none;
+  width: 50%;
+  margin: 0 auto;
+}
+
 
 @media only screen and (max-width: 500px) {
   body {
